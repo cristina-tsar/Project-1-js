@@ -195,6 +195,7 @@ input {
     font-size: 48px;
     font-weight: 900;
     color: white;
+    padding-top: 50px;
 }
 .products > div {
     width: 270px;
@@ -310,6 +311,9 @@ input {
     height: 45px;
     margin: 0px 15px 30px ;
 }
+.options div {
+    margin-top: 15px;    
+}
 label:before {
     content: "";
     display: block;
@@ -317,18 +321,18 @@ label:before {
     height: 10px;
     border: 1px solid white;
     cursor: pointer;
-    margin: 30px 20px;
-    position: relative;
-     
+    margin: 3px 0px;
+    position: absolute;         
 }
 input[type="checkbox"]:checked + label:before {
-    background-color: white;
-    
+    background-color: white;    
 }
 input[type="checkbox"] {
-    display: none;
-    width: 30px;
-    position: absolute;
+    display: none;        
+}
+label {
+    position: relative;
+    padding: 0px 0px 10px 22px;        
 }
 .device  {
     width: 270px;
