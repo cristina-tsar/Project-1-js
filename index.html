@@ -42,17 +42,15 @@
                 <div class="col-md-3"> 
                     <div class="search">
                         <div class="type-buttom">
-                            <input type="text" value="search"> 
+                            <input class="btn-search" type="text" value="search"> 
                             <button class="search-submin" type="submit"></button>                                              
                         </div>
                         <div class="image">
-                            <div class="acount">4</div>                    
-                        </div> 
-                          
+                            <div class="acount" id="products-count">0</div>                    
+                        </div>                           
                     </div>                             
                 </div>
             </div>
-
         </div>
     </header>
     <main class="main">
@@ -64,7 +62,7 @@
                         <div class="options">
                             <h1>DEVICE TYPE</h1>
                             <div>
-                                <input type="checkbox" id="text-">
+                                <input class="" type="checkbox" id="text-">
                                 <label for="text-">Laptop</label>
                             </div> 
                             <div>                          
@@ -144,10 +142,15 @@
                                 <div class="price">$599
                                     <div class="index">25</div>
                                 </div>
-                            </div>                        
+                            </div> 
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
+                            </div>                       
                             <div class="button">
-                                <button>MORE DETAILS</button>
-                            </div>
+                                <button class="more-details">MORE DETAILS</button>
+                            </div> 
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
                             </div>    
@@ -167,9 +170,14 @@
                                 <div class="price">$1250
                                     <div class="index">99</div>
                                 </div> 
-                            </div>                            
+                            </div>  
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
+                            </div>                          
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -190,9 +198,14 @@
                                 <div class="price">$399
                                     <div class="index">50</div>
                                 </div>
-                            </div>                            
+                            </div>   
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
+                            </div>                         
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -213,9 +226,14 @@
                                 <div class="price">$599
                                     <div class="index">25</div>
                                 </div> 
+                            </div>
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
                             </div>                            
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -236,9 +254,14 @@
                                 <div class="price">$1250
                                     <div class="index">99</div>
                                 </div> 
-                            </div>                            
+                            </div> 
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
+                            </div>                           
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -259,9 +282,14 @@
                                 <div class="price">$399
                                     <div class="index">50</div>
                                 </div>  
-                            </div>                            
+                            </div> 
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
+                            </div>                           
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -282,9 +310,14 @@
                                 <div class="price">$599 
                                     <div class="index">25</div>
                                 </div>
+                            </div>
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
                             </div>                            
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -305,9 +338,14 @@
                                 <div class="price">$1250 
                                     <div class="index">99</div>
                                 </div>
-                            </div>                            
+                            </div> 
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
+                            </div>                           
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -328,9 +366,14 @@
                                 <div class="price">$399
                                     <div class="index">50</div>
                                 </div>
+                            </div>
+                            <div class="product-quantity">
+                                <button class="decrement-button">-</button>
+                                <input type="text" value="1" readonly>
+                                <button class="increment-button">+</button>                                
                             </div>                                                       
                             <div class="button">
-                                <button>MORE DETAILS</button>
+                                <button class="more-details">MORE DETAILS</button>
                             </div>
                             <div class="button">
                                 <button class="card">ADD TO CART</button> 
@@ -340,9 +383,29 @@
                     <button class="more">Load more ...</button>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </main>
     <footer class="footer">Footer</footer>
+    <div class="modal">
+        <div class="modal-block">
+            <form>
+                <div class="btn-close">X</div>
+                <h3>Please call for more details</h3>
+                <div class="form-fields">
+                    <input type="text" placeholder ="Your name">
+                </div>
+                <div class="form-fields">
+                    <input type="text" placeholder="Your phone">
+                </div>
+                <button>Please call</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="test">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum voluptas debitis, ullam iste officiis cupiditate quidem? Hic quam unde alias dolorum enim error sit, 
+            mollitia corporis distinctio, ex quas?</p>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
